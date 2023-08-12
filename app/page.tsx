@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import LyricsEditor from './components/LyricsEditor/lyricsEditor'
+import Textarea from '../stories/components/Textarea/Textarea'
 
 export default function Home() {
   return (
@@ -90,7 +90,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-        <LyricsEditor lyrics="TEST"/>
+        <Textarea label="Textarea" value="Textarea" />
       </div>
     </main>
   )
