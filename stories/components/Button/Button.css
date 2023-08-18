@@ -1,0 +1,26 @@
+.button-base {
+    padding: 12px 8px;
+    border-radius: 6px;
+}
+
+.button-base:hover {
+    text-decoration: underline;
+}
+
+.button-variant-default {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.button-variant-success {
+    background-color: #40ae6c;
+    color: #FFFFFF;
+    border: 1px solid #40ae6c;
+}
+
+.button-variant-danger {
+    background-color: #c61209;
+    color: #FFFFFF;
+    border: 1px solid #c61209;
+}
