@@ -9,18 +9,18 @@
 
 .button-variant-default {
     background-color: #FFFFFF;
-    border: 1px solid #000000;
+    border: 1px solid var(--color-general);
     color: #000000;
 }
 
 .button-variant-success {
-    background-color: #40ae6c;
+    background-color: var(--color-success);
     color: #FFFFFF;
-    border: 1px solid #40ae6c;
+    border: 1px solid var(--color-success);
 }
 
 .button-variant-danger {
-    background-color: #c61209;
+    background-color: var(--color-danger);
     color: #FFFFFF;
-    border: 1px solid #c61209;
+    border: 1px solid var(--color-danger);
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './Textarea.css'
 
 interface TextareaProps {   
     label: string;
@@ -14,7 +15,10 @@ export default function TextareaEditor({
     return (
         <div>
             <h1>{label}</h1>
-            <textarea placeholder={placeholder} value={value}></textarea>
+            <textarea 
+                className="textarea-base"
+                placeholder={placeholder} 
+                value={value}></textarea>
         </div>
     )
 

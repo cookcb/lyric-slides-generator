@@ -1,0 +1,8 @@
+{
+    "color": {
+        "success": { "value": "40ae6c" },
+        "danger": { "value":  "c61209" },
+        "general": { "value": "000000" },
+        "alternate": { "value": "FFFFFF" }
+    }
+}

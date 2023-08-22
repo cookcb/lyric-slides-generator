@@ -12,6 +12,7 @@ It should also have an onclick event handler
 
 import React from 'react';
 import './Button.css';
+import '../../../styles/variables.css';
 
 interface ButtonProps {
     label: string;

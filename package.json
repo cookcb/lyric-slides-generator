@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "style-dictionary": "style-dictionary build"
   },
   "dependencies": {
     "@types/node": "20.4.8",
@@ -31,6 +32,7 @@
     "@storybook/react": "^7.2.3",
     "@storybook/testing-library": "^0.2.0",
     "eslint-plugin-storybook": "^0.6.13",
-    "storybook": "^7.2.3"
+    "storybook": "^7.2.3",
+    "style-dictionary": "^3.8.0"
   }
 }
