@@ -1,0 +1,45 @@
+{
+    "typography": {
+        "headline": {
+            "font": {
+                "family": {
+                    "value": "Sans-Serif"
+                },
+                "size": {
+                    "value": 16
+                },
+                "weight": {
+                    "value": 500
+                }
+            }
+        },
+        "body": {
+            "regular": {
+                "font": {
+                    "family": {
+                        "value": "Sans-Serif"
+                    },
+                    "size": {
+                        "value": 14
+                    },
+                    "weight": {
+                        "value": 400
+                    }
+                }
+            },
+            "small": {
+                "font": {
+                    "family": {
+                        "value": "Sans-Serif"
+                    },
+                    "size": {
+                        "value": 12
+                    },
+                    "weight": {
+                        "value": 400
+                    }
+                }
+            }
+        }
+    }
+}

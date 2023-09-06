@@ -1,38 +1,25 @@
-/*
-Create a react input component
-
-Should have an interface with the following props
-- label: string
-- value: string
-
-Should have a state with the following properties
-- value: string
-
-Should render a div with the following
-- a label
-- an input
-
-*/
-
 import React from 'react';
 
 interface InputProps {
     label: string;
     value: string;
     placeholder?: string;
+    onChange?: (e: any) => void;
 };  
 
 export default function Input({
     label,
     value,
-    placeholder
+    placeholder,
+    onChange: onchange
 }: InputProps){
     return (
         <div>
-            <h1>{label}</h1>
+            <h2>{label}</h2>
             <input 
                 placeholder={placeholder}
-                value={value}>    
+                value={value}
+                onChange={onchange}>    
             </input>
         </div>
     )

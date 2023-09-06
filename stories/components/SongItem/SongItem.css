@@ -1,0 +1,26 @@
+.song-item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid #000000;
+    min-width: 300px;
+    width: 75%;
+}
+
+.song-item-label {
+    margin: none;
+    margin-right: auto;
+    font-family: var(--typography-headline-font-family);
+    font-size: var(--typography-headline-font-size);
+    font-weight: var(--typography-headline-font-weight);
+}
+
+.song-item-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}

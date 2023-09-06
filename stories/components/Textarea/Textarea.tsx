@@ -5,12 +5,14 @@ interface TextareaProps {
     label: string;
     value: string;
     placeholder?: string;
+    onChange?: (e: any) => void;
 };
 
 export default function TextareaEditor({
     label,
     value,
-    placeholder
+    placeholder,
+    onChange: onchange
 }: TextareaProps){
     return (
         <div>
@@ -18,7 +20,8 @@ export default function TextareaEditor({
             <textarea 
                 className="textarea-base"
                 placeholder={placeholder} 
-                value={value}></textarea>
+                value={value}
+                onChange={onchange}></textarea>
         </div>
     )
 

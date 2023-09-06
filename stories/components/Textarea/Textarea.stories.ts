@@ -12,6 +12,7 @@ const meta = {
     argTypes: {
         value: { control: 'text' },
         label: { control: 'text' },
+        placeholder: { control: 'text' },
     }
 } as Meta<typeof Textarea>;
 

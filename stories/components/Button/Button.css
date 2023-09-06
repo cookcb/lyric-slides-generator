@@ -7,10 +7,14 @@
     text-decoration: underline;
 }
 
-.button-variant-default {
+.button-variant-primary {
     background-color: #FFFFFF;
     border: 1px solid var(--color-general);
     color: #000000;
+}
+
+.button-variant-primary:focus {
+    border: 2px solid var(--color-focus);
 }
 
 .button-variant-success {
@@ -19,8 +23,16 @@
     border: 1px solid var(--color-success);
 }
 
+.button-variant-success:focus {
+    border: 2px solid var(--color-focus);
+}
+
 .button-variant-danger {
     background-color: var(--color-danger);
     color: #FFFFFF;
     border: 1px solid var(--color-danger);
+}
+
+.button-variant-danger:focus {
+    border: 2px solid var(--color-focus);
 }

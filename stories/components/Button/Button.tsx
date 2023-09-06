@@ -1,15 +1,3 @@
-/*
-Create a button component that has the following props:
-
-- label: string
-- variant: string
-
-It should also import the Button.css 
-
-It should also have an onclick event handler
-
-*/
-
 import React from 'react';
 import './Button.css';
 import '../../../styles/variables.css';
@@ -27,10 +15,11 @@ interface variantClassMap {
 export default function Button({
     label,
     variant,
-    onClick
+    onClick: onClick
 }: ButtonProps){
     const variantClasses: variantClassMap = {
-        default: 'button-variant-default',
+        primary: 'button-variant-primary',
+        secondary: 'button-variant-secondary',
         success: 'button-variant-success',
         danger: 'button-variant-danger'
     }
