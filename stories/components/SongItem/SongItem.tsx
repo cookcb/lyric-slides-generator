@@ -2,14 +2,12 @@ import React from 'react';
 import Button from '../Button/Button';
 import './SongItem.css';
 
-interface SongItemProps {
+type SongItemProps = {
     title: string;
-    songId: number;
 }
 
 export default function SongItem({
     title,
-    songId
 }: SongItemProps){
     return (
         <div className="song-item-container">
@@ -18,17 +16,17 @@ export default function SongItem({
                 <Button 
                     label="Select Song"
                     variant="success"
-                    onClick={() => alert(`Selected ${title} with id ${songId}`)}
+                    onClick={() => alert(`Selected ${title}`)}
                 />
                 <Button 
                     label="Edit Song"
                     variant="success"
-                    onClick={() => alert(`Selected ${title} with id ${songId}`)}
+                    onClick={() => alert(`Selected ${title}`)}
                 />
                 <Button 
                     label="Delete Song"
                     variant="danger"
-                    onClick={() => alert(`Deleted ${title} with id ${songId}`)}
+                    onClick={() => alert(`Deleted ${title}`)}
                 />
             </div>
         </div>
